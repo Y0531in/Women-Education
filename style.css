@@ -1,7 +1,7 @@
 .navbar {
   background-color:rgb(15, 109, 231);
   overflow: hidden;
-  font-family: cursive;
+  font-family: Courier New;
   text-align: center;
 }
 .navbar a {
@@ -15,12 +15,12 @@ font-size:17px;
 .navbar a:hover {
 background-color:rgb(0, 153, 255);
 color:white;
-font-family: cursive;
+font-family:Courier New;
 }
 .navbar a.active {
   background-color:rgb(86, 139, 253);
   color:white;
-  font-family: cursive;
+  font-family: Courier New;
 }
 body{
   background-color: rgb(159, 211, 245);
@@ -28,10 +28,10 @@ body{
 h1{
 color:rgb(15, 109, 231);
 text-align: center;
-font-family: cursive;
+font-family: Courier New;
 }
 h3{
-  font-family: cursive;
+  font-family: Courier New;
   text-align: center;
 }
 .center_image {
@@ -42,4 +42,37 @@ h3{
 .topPadding {
   padding-top: 15px;
 }
+ button{
+background-color:rgb(86, 139, 253);
+border:black;
+color: white;
+padding: 15px 20px;
+text-align: center;
+display: inline-block;
+font-size: 14px;
+border-radius: 10px
+}
+
+button:hover{
+  background-color:rgb(159, 211, 245);
+  color: black;
+  border: 1px solid black;
+  transition-duration:3s;
+  font-family: Courier New;
+} 
+.column1{
+  float: left;
+  width:16.6%;
+  background-color:rgb(15, 109, 231);
+}
+.row1{
+  content:"";
+  display:table;
+  clear:both;
   
+}
+h2{
+color: black;
+font-family: Courier New;
+text-align: left;
+}
