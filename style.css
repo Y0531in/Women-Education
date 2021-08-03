@@ -76,3 +76,10 @@ color: black;
 font-family: Courier New;
 text-align: left;
 }
+.background1{
+    background-color:rgb(15, 109, 231);
+}
+.column2{
+  float: left;
+  width:50;
+  background-color:rgb(15, 109, 231);
