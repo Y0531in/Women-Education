@@ -100,3 +100,6 @@ text-align: left;
 .column6{
  float:right; 
 }
+.column9{
+  float: left;
+  width:33%;
